@@ -4,7 +4,7 @@
 // - protoc             v3.21.5
 // source: test.proto
 
-package __
+package vvproto
 
 import (
 	context "context"

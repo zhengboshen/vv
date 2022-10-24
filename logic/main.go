@@ -2,7 +2,6 @@ package logic
 
 import (
 	"github.com/zhengboshen/vv/logic/service"
-	"github.com/zhengboshen/vv/protobuf/vvproto"
 )
 
 func main() {
@@ -23,6 +22,6 @@ func main() {
 	// 	fmt.Println(err)
 	// 	return
 	// }
-	service.NewEventService()
-	vvproto.Tester()
+	service.NewEventService2()
+	// vvproto.Tester()
 }

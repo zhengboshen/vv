@@ -6,7 +6,7 @@ package  vvproto;
 // 指定输出 go 语言的源码到哪个目录以及文件名称
 // 最终在 test.proto 目录生成 test.pb.go
 // 也可以只填写 "./"
-option go_package = "./";
+option go_package = "./;vvproto";
  
 // 如果要输出其它语言的话
 // option csharp_package="MyTest";
