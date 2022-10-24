@@ -5,7 +5,8 @@ import (
 	"errors"
 	"io/ioutil"
 	"log"
-	"vv/comet/ziface"
+
+	"github.com/zhengboshen/vv/comet/ziface"
 )
 
 // 存储一些数据供全局使用

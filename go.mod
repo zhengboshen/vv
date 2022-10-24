@@ -1,4 +1,4 @@
-module vv
+module github.com/zhengboshen/vv
 
 go 1.19
 

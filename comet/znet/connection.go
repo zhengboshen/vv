@@ -5,8 +5,9 @@ import (
 	"log"
 	"net"
 	"sync"
-	"vv/comet/utils"
-	"vv/comet/ziface"
+
+	"github.com/zhengboshen/vv/comet/utils"
+	"github.com/zhengboshen/vv/comet/ziface"
 
 	"github.com/gorilla/websocket"
 )

@@ -1,5 +1,10 @@
 package logic
 
+import (
+	"github.com/zhengboshen/vv/logic/service"
+	"github.com/zhengboshen/vv/protobuf/vvproto"
+)
+
 func main() {
 	// 初始化一个grpc对象
 	// service := grpc.NewServer()
@@ -18,4 +23,6 @@ func main() {
 	// 	fmt.Println(err)
 	// 	return
 	// }
+	service.NewEventService()
+	vvproto.Tester()
 }

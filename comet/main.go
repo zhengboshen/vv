@@ -6,9 +6,10 @@ import (
 	"log"
 	"strconv"
 	"time"
-	"vv/comet/message"
-	"vv/comet/ziface"
-	"vv/comet/znet"
+
+	"github.com/zhengboshen/vv/comet/message"
+	"github.com/zhengboshen/vv/comet/ziface"
+	"github.com/zhengboshen/vv/comet/znet"
 
 	"github.com/gorilla/websocket"
 )
